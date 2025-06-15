@@ -1,0 +1,146 @@
+/* Base Styling */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f4f8fb;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Header & Navigation */
+header {
+  background: linear-gradient(90deg, #007bff 0%, #0056b3 100%);
+  color: white;
+  padding: 1.5em 1em;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-bottom: 3px solid #004c99;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0.5em 0 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 1em;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.5em 1em;
+  transition: background 0.3s ease, border-radius 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+}
+
+/* Main Container */
+main {
+  max-width: 900px;
+  margin: 2em auto;
+  padding: 2em;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+}
+
+/* Sections */
+section {
+  margin-bottom: 2.5em;
+}
+
+h2, h3 {
+  color: #007bff;
+  margin-top: 0;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+figure {
+  text-align: center;
+  margin: 2em 0;
+}
+
+figcaption {
+  font-style: italic;
+  color: #666;
+  margin-top: 0.5em;
+}
+
+/* Profile Picture Styles (from index.html) */
+.profile-container {
+  width: 220px;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.profile-img {
+  border-radius: 8px;
+}
+
+.profile-container figcaption {
+  font-style: italic;
+  margin-top: 5px;
+  color: #666;
+}
+
+/* Quotes */
+blockquote {
+  border-left: 4px solid #007bff;
+  background-color: #f0f4ff;
+  padding: 1em;
+  margin: 1.5em 0;
+  font-style: italic;
+  color: #444;
+}
+
+/* Lists */
+ul {
+  padding-left: 1.5em;
+  line-height: 1.8;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1.2em;
+  background-color: #007bff;
+  color: white;
+  font-size: 0.9em;
+  margin-top: 2em;
+  border-top: 3px solid #004c99;
+}
+
+/* Links inside content (optional enhancement) */
+a {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #003f80;
+  text-decoration: none;
+}
+
